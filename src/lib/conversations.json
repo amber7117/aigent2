@@ -1,0 +1,39 @@
+[
+  {
+    "id": "conv-1",
+    "customer": { "name": "Charlie", "avatar": "https://i.pravatar.cc/150?u=charlie" },
+    "channel": { "id": "ch-1", "name": "WhatsApp Support", "type": "WhatsApp" },
+    "startTime": "2023-05-15T10:30:00Z",
+    "status": "open",
+    "agent": { "id": "user-1", "name": "Alice", "avatar": "https://i.pravatar.cc/150?u=alice" },
+    "tags": ["support", "billing"],
+    "summary": "Customer is having issues with their recent invoice.",
+    "messages": [
+      { "id": "msg-1", "from": "customer", "text": "Hi, I have a question about my bill.", "timestamp": "2023-05-15T10:30:00Z", "read": true },
+      { "id": "msg-2", "from": "agent", "text": "Hello Charlie, I can help with that. What is the issue?", "timestamp": "2023-05-15T10:31:00Z", "read": true }
+    ],
+    "online": true,
+    "lastMessage": "Hello Charlie, I can help with that. What is the issue?",
+    "timestamp": "10:31 AM",
+    "unread": 0,
+    "platform": "WhatsApp"
+  },
+  {
+    "id": "conv-2",
+    "customer": { "name": "Diana", "avatar": "https://i.pravatar.cc/150?u=diana" },
+    "channel": { "id": "ch-2", "name": "Website Chat", "type": "Widget" },
+    "startTime": "2023-05-15T11:00:00Z",
+    "status": "closed",
+    "agent": { "id": "user-2", "name": "Bob", "avatar": "https://i.pravatar.cc/150?u=bob" },
+    "tags": ["sales", "new-lead"],
+    "summary": "Potential customer asking about pricing.",
+    "messages": [
+      { "id": "msg-3", "from": "customer", "text": "How much does the pro plan cost?", "timestamp": "2023-05-15T11:00:00Z", "read": true }
+    ],
+    "online": false,
+    "lastMessage": "How much does the pro plan cost?",
+    "timestamp": "11:00 AM",
+    "unread": 2,
+    "platform": "Website"
+  }
+]
